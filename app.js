@@ -1,5 +1,6 @@
 // load inner module
 const http = require('http');
+const fs = require('fs');
 // load outer module
 const html = require('./index.html');
 // contentType
@@ -11,7 +12,10 @@ const contentType = {
 const server = http.createServer( (req, res) => {
   if(req.url === '/') {
     res.writeHead(200, contentType);
-    res.end(html);
+    
+    // fs. readfile to load html file
+    fs.readFile("./index.html")
+
   } else {
     res.writeHead(404, contentType);
     Response.end("error has occured");
