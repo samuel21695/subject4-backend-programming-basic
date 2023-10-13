@@ -6,7 +6,7 @@ const contentType = {
   'Content-Type': 'text/html'
 }
 
-// create sercer
+// create server
 const server = http.createServer( (req, res) => {
   if(req.url === '/') {
     res.writeHead(200, contentType);
