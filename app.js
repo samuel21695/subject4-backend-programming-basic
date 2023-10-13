@@ -21,10 +21,6 @@ const server = http.createServer( (req, res) => {
         res.end(data)
       }
     })
-
-  } else {
-    res.writeHead(404, contentType);
-    Response.end("error has occured");
   }
 });
 
