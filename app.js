@@ -14,7 +14,13 @@ const server = http.createServer( (req, res) => {
     res.writeHead(200, contentType);
     
     // fs. readfile to load html file
-    fs.readFile("./index.html")
+    fs.readFile("./index.html", (err, data) => {
+      if(err) {
+        console.error('error has occured');
+      } else {
+        res.end(data)
+      }
+    })
 
   } else {
     res.writeHead(404, contentType);
