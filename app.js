@@ -6,3 +6,7 @@ const html = require('./index.html');
 const contentType = {
   'Content-Type': 'text.html'
 }
+
+// create sercer
+const server = http.createServer( (req, res) => {
+})
