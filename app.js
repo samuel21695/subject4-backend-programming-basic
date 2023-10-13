@@ -2,3 +2,7 @@
 const http = require('http');
 // load outer module
 const html = require('./index.html');
+// contentType
+const contentType = {
+  'Content-Type': 'text.html'
+}
