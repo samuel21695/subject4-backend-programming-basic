@@ -4,7 +4,7 @@ const http = require('http');
 const html = require('./index.html');
 // contentType
 const contentType = {
-  'Content-Type': 'text.html'
+  'Content-Type': 'text/html'
 }
 
 // create sercer
