@@ -9,4 +9,6 @@ const contentType = {
 
 // create sercer
 const server = http.createServer( (req, res) => {
+  res.writeHead(200, contentType);
+  res.end(html);
 })
