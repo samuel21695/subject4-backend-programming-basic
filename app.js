@@ -12,6 +12,9 @@ const server = http.createServer( (req, res) => {
   if(req.url === '/') {
     res.writeHead(200, contentType);
     res.end(html);
+  } else {
+    res.writeHead(404, contentType);
+    Response.end("error has occured");
   }
 });
 
