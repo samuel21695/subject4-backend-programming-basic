@@ -27,14 +27,19 @@
       height: 150px;
       background-color: white;
       border-radius: 50%;
+      
     }
 
+    .egg.vibration{
+      animation: vibration 0.1s infinite;
+    }
+    
     @keyframes vibration {
       from {
-        transform: rotate(1deg);
+        transform: rotate(10deg);
       }
       to {
-        transform: rotate(-1deg);
+        transform: rotate(-10deg);
       }
     }
   </style>
@@ -45,7 +50,13 @@
     <h1 class = "text">Who am I?</h1>
   </div>
   <script>
+    const vibration = (target) => {
+      target.classList.add("vibration");
 
+      setTimeout( () => {
+        target.classList.remove("vibration");
+      }, 400);
+    }
   </script>
 </body>
 </html>
