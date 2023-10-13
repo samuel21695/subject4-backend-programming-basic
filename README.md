@@ -8,3 +8,10 @@ app.js
   7. server.listen을 통해 포트번호 8080으로 설정
   8. 웹 주소창에 localhost:8080 입력하여 접속한다.
 
+index.html
+  1. body라는 부모 태그에 자식 태그들을 마크다운 방식으로 작성한다.
+  2. 정적으로 CSS를 작성해서 크기값, 색상 ,폰트 크기 등을 설정한다..
+  3. @keyframes vibration을 통해 10degree씩 회전하게끔 하는 애니메이션을 설정 
+  4. 적용할 class를 선택하여서 커스터마이징한 효과를 작성한다.
+  5. script 작성 시, addEventListner를 통해 click시 event가 발생하는 코드 작성
+  6. 동적으로 스타일이 바뀌게끔 DOM을 활용하여 작성
