@@ -11,4 +11,8 @@ const contentType = {
 const server = http.createServer( (req, res) => {
   res.writeHead(200, contentType);
   res.end(html);
-})
+});
+
+server.listen(3000, () => {
+  console.log('server is working')
+});
