@@ -1,8 +1,6 @@
 // load inner module
 const http = require('http');
 const fs = require('fs');
-// load outer module
-const html = require('./index.html');
 // contentType
 const contentType = {
   'Content-Type': 'text/html'
@@ -24,6 +22,4 @@ const server = http.createServer( (req, res) => {
   }
 });
 
-server.listen(3000, () => {
-  console.log('server is working')
-});
+server.listen(3000)
