@@ -9,8 +9,10 @@ const contentType = {
 
 // create sercer
 const server = http.createServer( (req, res) => {
-  res.writeHead(200, contentType);
-  res.end(html);
+  if(req.url === '/') {
+    res.writeHead(200, contentType);
+    res.end(html);
+  }
 });
 
 server.listen(3000, () => {
