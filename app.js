@@ -19,6 +19,9 @@ const server = http.createServer( (req, res) => {
         res.end(data)
       }
     })
+  } else {
+    res.writeHead(404);
+    res.end('Not Found')
   }
 });
 
