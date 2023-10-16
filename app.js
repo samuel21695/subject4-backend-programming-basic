@@ -19,6 +19,14 @@ const server = http.createServer( (req, res) => {
         res.end(data)
       }
     })
+  } else if (req.url === '/static/style.css') {
+    fs.readFile("./static/style.css", (err, data) => {
+      if(err) {
+        console.error('error has occured');
+      } else {
+        res.end(data)
+      }
+    })
   } else {
     res.writeHead(404);
     res.end('Not Found')
