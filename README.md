@@ -15,3 +15,5 @@ index.html
   4. 적용할 class를 선택하여서 커스터마이징한 효과를 작성한다.
   5. script 작성 시, addEventListner를 통해 click시 event가 발생하는 코드 작성
   6. 동적으로 스타일이 바뀌게끔 DOM을 활용하여 작성
+
+test for pull request
