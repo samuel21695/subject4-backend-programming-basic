@@ -11,6 +11,7 @@ Try now to see how it works and evolves.
 
 Further events will be upadated soon.
 
+--------------------------------------------------------------
 
 app.js
   1. 내부함수로 http를 호출하기 위해 const 사용
