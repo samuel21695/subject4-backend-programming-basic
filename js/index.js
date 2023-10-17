@@ -26,12 +26,12 @@ clickEgg.addEventListener('click', () => {
     clickEgg.style.backgroundPosition = 'center';
     clickEgg.style.backgroundSize = 'cover';
   }
-  if (count > 149) {
+  if (count > 199) {
     clickEgg.style.background = 'url("/img/egg4.png")';
     clickEgg.style.backgroundPosition = 'center';
     clickEgg.style.backgroundSize = 'cover';
   }
-  if (count > 199) {
+  if (count > 499) {
     clickEgg.style.background = 'url("/img/egg5.png")';
     clickEgg.style.backgroundPosition = 'center';
     clickEgg.style.backgroundSize = 'cover';
