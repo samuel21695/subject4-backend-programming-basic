@@ -7,7 +7,6 @@
 숫자가 늘어날수록 어떤 변화가 나타날까요? 한번 시도해보세요!
 
 A simple game that only require 'click' button itself!
-
 Try now to see how it works and evolves.
 
 Further progress will be updated soon.
