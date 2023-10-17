@@ -1,8 +1,15 @@
-What's in the egg?
+🥚 What's in the egg?
 
 카운트가 올라갈 수록 알의 모습이 변화하는 간단한 클릭형 게임입니다!
+
 숫자가 늘어날수록 어떤 변화가 나타날까요? 한번 시도해보세요!
 ![image](https://github.com/samuel21695/subject4-backend-programming-basic/assets/141696122/db2ae92a-7e29-4ab5-8a19-2573ead2e959)
+
+A simple game that only require 'click' button itself!
+
+Try now to see how it works and evolves.
+
+Further events will be upadated soon.
 
 
 app.js
