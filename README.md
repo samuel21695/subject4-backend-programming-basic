@@ -1,4 +1,4 @@
-🥚 What's in the egg?
+# 🥚 What's in the egg? 
 
 ![image](https://github.com/samuel21695/subject4-backend-programming-basic/assets/141696122/db2ae92a-7e29-4ab5-8a19-2573ead2e959)
 
@@ -13,7 +13,7 @@ Try now to see how it works and evolves.
 Further progress will be updated soon.
 
 --------------------------------------------------------------
-
+# 파일 작성 순서
 app.js
   1. 내부함수로 http를 호출하기 위해 const 사용
   2. fs도 이와 마찬가지로 내부함수로 호출한다.
