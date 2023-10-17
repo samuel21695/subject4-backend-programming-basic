@@ -16,6 +16,4 @@ const countText = document.getElementsByClassName('count')[0];
 clickEgg.addEventListener('click', () => {
   
   countText.textContent = count++;
-  // color change randomly
-  clickEgg.style.background = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`
 })
