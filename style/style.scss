@@ -2,4 +2,34 @@
   width: 100vw;
   height: 100vh;
   background-color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .count{
+    font-size: 28px;
+  margin-bottom: 1vh;
+  }
+  .text{
+    color:white;
+  }
+  .egg{
+    width: 120px;
+    height: 150px;
+    margin: 1vh;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+.egg.vibration{
+  animation: vibration 0.1s infinite;
+}
+@keyframes vibration {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(-10deg);
+  }
 }
