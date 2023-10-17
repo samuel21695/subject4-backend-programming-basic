@@ -15,11 +15,11 @@
   color: white;
 }
 #root .egg {
-  width: 120px;
+  width: 150px;
   height: 150px;
-  margin: 1vh;
-  background-color: white;
-  border-radius: 50%;
+  background-image: url('/img/egg1.png');
+  background-position: center;
+  background-size: cover;
   cursor: pointer;
 }
 
