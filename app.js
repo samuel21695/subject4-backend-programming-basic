@@ -5,6 +5,7 @@ const fs = require('fs');
 const contentType = {
   'Content-Type': 'text/html'
 }
+const path = require('path');
 
 // create server
 const server = http.createServer( (req, res) => {
@@ -23,6 +24,17 @@ const server = http.createServer( (req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/css' });
 
     fs.readFile("./style/newStyle.css", (err, data) => {
+      if(err) {
+        console.error('error has occured');
+      } else {
+        res.end(data)
+      }
+    })
+  } else if (req.url.startsWith('/img/')) {
+    res.writeHead(200, { 'Content-Type': 'image/png' });
+    let imgName = path.basename(req.url);
+    let imgPath = './img/' + imgName; 
+    fs.readFile(imgPath, (err, data) => {
       if(err) {
         console.error('error has occured');
       } else {
