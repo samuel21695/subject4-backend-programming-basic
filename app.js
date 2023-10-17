@@ -19,10 +19,10 @@ const server = http.createServer( (req, res) => {
         res.end(data)
       }
     })
-  } else if (req.url === '/style/style.css') {
+  } else if (req.url === '/style/newStyle.css') {
     res.writeHead(200, { 'Content-Type': 'text/css' });
 
-    fs.readFile("./style/style.css", (err, data) => {
+    fs.readFile("./style/newStyle.css", (err, data) => {
       if(err) {
         console.error('error has occured');
       } else {
