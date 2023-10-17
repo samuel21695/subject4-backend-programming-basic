@@ -8,7 +8,6 @@
 
 A simple game that only require 'click' button itself!
 Try now to see how it works and evolves.
-
 Further progress will be updated soon.
 
 --------------------------------------------------------------
