@@ -19,19 +19,19 @@ const server = http.createServer( (req, res) => {
         res.end(data)
       }
     })
-  } else if (req.url === '/static/style.css') {
+  } else if (req.url === '/style/style.css') {
     res.writeHead(200, { 'Content-Type': 'text/css' });
 
-    fs.readFile("./static/style.css", (err, data) => {
+    fs.readFile("./style/style.css", (err, data) => {
       if(err) {
         console.error('error has occured');
       } else {
         res.end(data)
       }
     })
-  } else if (req.url === '/static/index.js') {
+  } else if (req.url === '/js/index.js') {
     res.writeHead(200, { 'Content-Type': 'application/javascript' });
-    fs.readFile("./static/index.js", (err, data) => {
+    fs.readFile("./js/index.js", (err, data) => {
       if(err) {
         console.error('error has occured');
       } else {
