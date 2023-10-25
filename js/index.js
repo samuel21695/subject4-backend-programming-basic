@@ -23,19 +23,19 @@ clickEgg.addEventListener('click', () => {
   clickEgg.style.backgroundSize = 'cover';
   text.innerHTML = `'cracked!'`
   } 
-  if (count > 99) {
+  if (count > 149) {
     clickEgg.style.background = 'url("/img/egg3.png")';
     clickEgg.style.backgroundPosition = 'center';
     clickEgg.style.backgroundSize = 'cover';
     text.innerHTML = `You can feel something is moving`
   }
-  if (count > 199) {
+  if (count > 349) {
     clickEgg.style.background = 'url("/img/egg4.png")';
     clickEgg.style.backgroundPosition = 'center';
     clickEgg.style.backgroundSize = 'cover';
     text.innerHTML = `Almost done!`
   }
-  if (count > 499) {
+  if (count > 749) {
     clickEgg.style.background = 'url("/img/egg5.png")';
     clickEgg.style.backgroundPosition = 'center';
     clickEgg.style.backgroundSize = 'cover';
